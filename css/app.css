@@ -33,6 +33,10 @@ h1 {
   font-weight: 300;
 }
 
+h1:hover {
+  color: red;
+}
+
 /*
 * Styles for the deck of cards
 */
