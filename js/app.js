@@ -150,7 +150,7 @@ function checkIfCardsMatch() {
 }
 
 // Display time in minutes and seconds
-function displayTime() {
+function displayTime(){
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;
   const clock = document.querySelector('.clock');
@@ -158,6 +158,7 @@ function displayTime() {
       clock.innerHTML = `${minutes}:0${seconds}`; // fixed template literal
   } else {
       clock.innerHTML = `${minutes}:${seconds}`; // fixed template literal
+  }
 }
 
 // Start the clock
